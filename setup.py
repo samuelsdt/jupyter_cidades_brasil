@@ -43,5 +43,6 @@ setup(
     package_data={
         'geodata': ['data.geo.json'],
     },
-
+    
+    include_package_data=True,
 )
