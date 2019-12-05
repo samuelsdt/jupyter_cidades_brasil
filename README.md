@@ -13,7 +13,7 @@ mapa = brlmap(data, pattern="cod", title="", colormap = linear.YlOrBr_04, legend
 
 ### Parâmetros:  
 
-- **data** = dicionario de dados usado para o carregamento de dados, sendo a chave o identificador do munícipio e o respectivo valor para plotagem. O identificador de munícipio pode ser:  
+- **data** = dicionario de dados usado para o carregamento dos dados no mapa, sendo a chave o identificador do munícipio e o respectivo valor para plotagem. O identificador de munícipio pode ser:  
    Código IBGE do munícipio;  
    Nome do munícipio e UF;
 
