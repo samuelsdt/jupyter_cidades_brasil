@@ -40,7 +40,7 @@ setup(
     
    
     
-    data_files=[('data.geo.json')],
+    data_files=[('brlcities/data.geo.json')],
     
     
 )
