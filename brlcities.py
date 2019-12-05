@@ -94,7 +94,7 @@ def brlmap(data, pattern="cod", title="", colormap = linear.YlOrBr_04, legendPos
                     width='100%')
     
     
-    layer.on_hover(update_html)
+    layer.on_hover(__update_html)
     
     
     if(legendPosition.find("bottom")>=0):
@@ -103,7 +103,7 @@ def brlmap(data, pattern="cod", title="", colormap = linear.YlOrBr_04, legendPos
         box = Box(children=[elemTitle, boxLgnd,m], layout=box_layout)
     return box
 
-def update_html( **kwargs):
+def __update_html( **kwargs):
         labelDados.value = kwargs["properties"]["nome"] + "/" + kwargs["properties"]["uf"] + ": " +  str(__data[kwargs["id"]])
     
 def __finddictcities(ks, pattern):
