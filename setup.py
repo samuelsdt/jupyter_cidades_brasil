@@ -39,7 +39,7 @@ setup(
 
     
     package_data={
-        'geodata': ['data.geo.json'],
+        'geodata': ['brlcities/data.geo.json'],
     },
     
     include_package_data=True,
