@@ -1,7 +1,7 @@
 # Jupyter Cidades Brasil
 Mapa coroplético com as cidades brasileiras para visualização no Jupyter Notebook
 
-Instalação
+# Instalação. 
 
 pip install git+git://github.com/samuelsdt/jupyter_cidades_brasil
 
