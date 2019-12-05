@@ -1,6 +1,5 @@
 '''
-Created on 3 de dez de 2019
-@author: Samuel
+@author: Samuel Schmidt
 '''
 import ipyleaflet 
 import json 
@@ -8,8 +7,10 @@ import re
 from ipywidgets import Layout, Box, HTML, widgets
 from branca.colormap import linear
 from ipyleaflet import WidgetControl
+from os import path
 
 __data = None
+__dirName = path.abspath(path.dirname(__file__))
 
 def brlmap(data, pattern="cod", title="", colormap = linear.YlOrBr_04, legendPosition = "bottomright", style={'fillOpacity': 1, 'dashArray': '5, 5'}):
     geo_json_data = __finddictcities(data.keys(), pattern)
@@ -118,7 +119,10 @@ def __finddictcities(ks, pattern):
         seg.append(pattern.lower())
     else:
         seg = pattern.lower().split(spl)
-    json_data = json.load(open('data.geo.json')) 
+	
+	
+	
+    json_data = json.load(open(__dirName + '\\data.geo.json')) 
     bds = [181,181,-181,-181]
     for k in ks:
         t=[]
