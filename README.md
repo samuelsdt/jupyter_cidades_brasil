@@ -1,2 +1,2 @@
-# jupyter_cidades_brasil
+# jupyter cidades Brasil
 Mapa coroplético com as cidades brasileiras para visualização no Jupyter Notebook
