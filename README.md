@@ -1,11 +1,11 @@
 # Mapa do Brasil por Cidades para Jupyter Notebook
 Mapa coroplético com as cidades brasileiras para visualização no Jupyter Notebook usando ipyleaflet.
 
-## Instalação 
+## Instalação: 
 
 pip install git+git://github.com/samuelsdt/jupyter_cidades_brasil
 
-## Uso 
+## Uso: 
 
 from brlcities import brlmap, linear
 
