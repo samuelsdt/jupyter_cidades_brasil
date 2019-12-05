@@ -29,7 +29,7 @@ setup(
 
     author_email='samuelsdt@hotmail.com',  
 
-
+    package_dir={'': 'brlcities'},
 
     packages=find_packages(where='brlcities'),
   
