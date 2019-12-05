@@ -1,15 +1,15 @@
 # Jupyter Cidades Brasil
 Mapa coroplético com as cidades brasileiras para visualização no Jupyter Notebook
 
-#Instalação
+##Instalação
 pip install git+git://github.com/samuelsdt/jupyter_cidades_brasil
 
-#Uso
+##Uso
 from brlcities import brlmap, linear
 
 mapa = brlmap(data, pattern="cod", title="", colormap = linear.YlOrBr_04, legendPosition = "bottomright", style={'fillOpacity': 1, 'dashArray': '5, 5'})
 
-#Onde:
+##Onde:
 -> data = dicionario de dados usado para o carregamento de dados, sendo a chave o identificador do munícipio e o respectivo valor para plotagem
 
 O identificador de munícipio pode ser:
