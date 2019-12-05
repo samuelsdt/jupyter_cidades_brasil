@@ -36,7 +36,7 @@ setup(
    
     install_requires=['ipyleaflet', 'ipywidgets', 'branca'], 
     
-    data_files=[('data.geo.json'), ['brlcities/data.geo.json']],
+    data_files=[('data.geo.json',['brlcities/data.geo.json'])],
     
     package_data={
         'geodata': ['data.geo.json'],
