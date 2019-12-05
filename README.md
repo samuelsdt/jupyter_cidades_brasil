@@ -1,4 +1,4 @@
-# Mapa do Brasil por Cidades no Jupyter
+# Mapa do Brasil por Cidades para Jupyter Notebook
 Mapa coroplético com as cidades brasileiras para visualização no Jupyter Notebook usando ipyleaflet.
 
 ## Instalação 
