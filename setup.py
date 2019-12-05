@@ -29,9 +29,7 @@ setup(
 
     author_email='samuelsdt@hotmail.com',  
 
-    package_dir={'': 'brlcities'},
-
-    packages=find_packages(where='brlcities'),
+    packages=['brlcities'],
   
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
 
@@ -44,5 +42,5 @@ setup(
         'geodata': ['data.geo.json'],
     },
     
-    #include_package_data=True,
+    include_package_data=True,
 )
